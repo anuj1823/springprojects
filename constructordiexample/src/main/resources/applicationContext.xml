@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       
+   <!-- Define your beans here for constructor injection -->
+  
+<bean id="studentbean" class="com.springprojects.entity.Student">  
+<constructor-arg name="stdid" value="std101" type="String"></constructor-arg>
+<constructor-arg name="stdname" value="Aman Kumar" type="String"></constructor-arg>
+<constructor-arg name="roll" value="1024" type="int"></constructor-arg>
+<constructor-arg name="age" value="20" type="int"></constructor-arg>
+</bean>   
+  
+</beans>  
